@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="concesionario.xsd"?>
+<!--<!DOCTYPE concesionario SYSTEM "concesionario.dtd">-->
+<concesionario>
+    <coche cod_coche="cc1">
+        <marca>Honda</marca>
+        <modelo>Civic '98</modelo>
+        <matricula>XYZ 1354</matricula>
+        <potenciaCV>160</potenciaCV>
+        <plazas>5</plazas>
+        <num_puertas>3</num_puertas>
+    </coche>
+
+    <coche cod_coche="cc32">
+        <marca>Dacia</marca>
+        <modelo>Sandero</modelo>
+        <matricula>XYY 2300</matricula>
+        <potenciaCV>90</potenciaCV>
+        <plazas>5</plazas>
+        <num_puertas>5</num_puertas>
+    </coche>
+
+    <coche cod_coche="cc13">
+        <marca>Opel</marca>
+        <modelo>Vectra '09</modelo>
+        <matricula>XRS 0190</matricula>
+        <potenciaCV>110</potenciaCV>
+        <plazas>5</plazas>
+        <num_puertas>4</num_puertas>
+    </coche>
+
+    <coche cod_coche="cc37">
+        <marca>Renault</marca>
+        <modelo>Clio '19</modelo>
+        <matricula>RST 0909</matricula>
+        <potenciaCV>95</potenciaCV>
+        <plazas>5</plazas>
+        <num_puertas>5</num_puertas>
+    </coche>
+
+    <coche cod_coche="cc90">
+        <marca>Seat</marca>
+        <modelo>Alhambra '20</modelo>
+        <matricula>SRS 9802</matricula>
+        <potenciaCV>120</potenciaCV>
+        <plazas>8</plazas>
+        <num_puertas>5</num_puertas>
+    </coche>
+</concesionario>

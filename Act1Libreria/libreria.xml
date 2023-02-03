@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<!DOCTYPE libreria SYSTEM "libreria.dtd">-->
+<?xml-model href="libreria.xsd"?>
+
+<libreria>
+    <libro id="lib1">
+        <titulo>Conceptos Básicos de computación y programación</titulo>
+        <autor>Fulanito Gómez</autor>
+        <genero>Ciencia</genero>
+        <precio>12.00</precio>
+    </libro>
+
+    <libro id="lib2">
+        <titulo>MySQL 8 para 'Dummies'</titulo>
+        <autor>Jose Juan</autor>
+        <genero>Informática</genero>
+        <precio>15.50</precio>
+    </libro>
+
+    <libro id="lib3">
+        <titulo>Matemáticas II</titulo>
+        <autor>Editorial Monolitos</autor>
+        <genero>Educación</genero>
+        <precio>20.00</precio>
+    </libro>
+
+    <libro id="lib4">
+        <titulo>Todos los trucos que aprendimos
+        para mates y física documentados en un libro</titulo>
+        <autor>Menganito Cañas</autor>
+        <genero>Aprendizaje</genero>
+        <precio>20.50</precio>
+    </libro>
+
+    <libro id="lib5">
+        <titulo>Historia de la computación</titulo>
+        <autor>Historiador Reconocido</autor>
+        <genero>Historia</genero>
+        <precio>13.99</precio>
+    </libro>
+
+    <libro id="lib6">
+        <titulo>Guía para programar apps web con JavaScript, HTML 5 y CSS</titulo>
+        <autor>Fulanito Gómez</autor>
+        <genero>Informática</genero>
+        <precio>23.50</precio>
+    </libro>
+
+    <libro id="lib7">
+        <titulo>Todas las posibles formas de estudiar informática</titulo>
+        <autor>Fulanito Gómez</autor>
+        <genero>Informativo</genero>
+        <precio>12.45</precio>
+    </libro>
+
+    <libro id="lib8">
+        <titulo>Rebelión en la granja</titulo>
+        <autor>George Orwell</autor>
+        <genero>Sátira</genero>
+        <precio>10.00</precio>
+    </libro>
+
+    <libro id="lib9">
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <genero>Distopia</genero>
+        <precio>11.00</precio>
+    </libro>
+
+    <libro id="lib10">
+        <titulo>La era del Diamante</titulo>
+        <autor>Neal Stephenson</autor>
+        <genero>Distopia, Cyberpunk</genero>
+        <precio>15.00</precio>
+    </libro>
+</libreria>
