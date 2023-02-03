@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--<!DOCTYPE gestoria SYSTEM "gestoria.dtd">-->
+<?xml-model href="gestoria.xsd"?>
 <gestoria>
     <alta>
-        <sede id_sede="">
-            <empleado></empleado>
+        <sede id_sede="A23584912">
+            <empleado>Fulanito Gómez</empleado>
+            <fecha>2020-01-02</fecha>
         </sede>
+        <cliente id_cliente="ABC-123">
+            <descripcion>Solvente</descripcion>
+            <num_viviendas>2</num_viviendas>
+            <vivienda ID="001">
+                <coste_vivienda>23000</coste_vivienda>
+                <resumen>Piso con buena ubicación, espacio promedio y en buenas condiciones.</resumen>
+                <plazo>15</plazo>
+            </vivienda>
+            <vivienda ID="002">
+                <coste_vivienda>30000</coste_vivienda>
+            </vivienda>
+        </cliente>
     </alta>
 </gestoria>

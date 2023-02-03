@@ -19,13 +19,14 @@
                                     <xs:sequence>
                                         <xs:element type="valores_desc" name="descripcion" minOccurs="0" maxOccurs="1"/>
                                         <xs:element type="xs:integer" name="num_viviendas" default="1"/>
-                                        <xs:element name="vivienda">
+                                        <xs:element name="vivienda" maxOccurs="unbounded" minOccurs="1">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element type="xs:decimal" name="coste_vivienda"/>
                                                     <xs:element type="xs:string" name="resumen"/>
                                                     <xs:element type="xs:int" name="plazo"/>
                                                 </xs:sequence>
+                                                <xs:attribute type="xs:int" name="ID" use="required"/>
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
