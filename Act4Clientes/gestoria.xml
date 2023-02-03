@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE gestoria SYSTEM "gestoria.dtd">-->
+<gestoria>
+    <alta>
+        <sede id_sede="">
+            <empleado></empleado>
+        </sede>
+    </alta>
+</gestoria>
