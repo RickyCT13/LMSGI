@@ -7,7 +7,7 @@
                         <xs:sequence>
                             <xs:element type="formato_nif" name="nif"/>
                             <xs:element type="valores_resultado" name="resultado"/>
-                            <xs:element type="xs:string" name="observaciones"/>
+                            <xs:element type="xs:string" name="observaciones" minOccurs="0" maxOccurs="1"/>
                             <xs:choice minOccurs="1" maxOccurs="1">
                                 <xs:element type="mac" name="mac"/>
                                 <xs:element type="ip" name="ip"/>
@@ -46,7 +46,7 @@
 
     <xs:simpleType name="mi_id">
         <xs:restriction base="xs:token">
-            <xs:pattern value="202[0-9]-[0-9]{10}"/>
+            <xs:pattern value="202[0-9]{1}-[0-9]{8}"/>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>

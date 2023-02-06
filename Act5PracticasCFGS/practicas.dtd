@@ -1,0 +1,8 @@
+<!ELEMENT practicas (expediente)*>
+<!ELEMENT expediente (nif, resultado, observaciones?, (ip|mac))>
+<!ELEMENT nif (#PCDATA)>
+<!ELEMENT resultado (#PCDATA)>
+<!ELEMENT observaciones (#PCDATA)>
+<!ELEMENT ip (#PCDATA)>
+<!ELEMENT mac (#PCDATA)>
+<!ATTLIST expediente id CDATA #REQUIRED>
