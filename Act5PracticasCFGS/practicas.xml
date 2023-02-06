@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="practicas.xsd"?>
+<!--<!DOCTYPE practicas SYSTEM "practicas.dtd">-->
+
+<practicas>
+    <expediente id="2022-12545412">
+        <nif>40234321A</nif>
+        <resultado>Apto</resultado>
+        <observaciones>Buenos resultados, trabaja bien en equipo y sabe comunicarse. Entiende instrucciones.</observaciones>
+        <ip>192.23.2.1</ip>
+    </expediente>
+
+    <expediente id="2023-58743654">
+        <nif>77234512Z</nif>
+        <resultado>No Apto</resultado>
+        <mac>12:F3:CE:34:DD:11</mac>
+    </expediente>
+</practicas>
