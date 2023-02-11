@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="modulos.xsd"?>
+<modulos>
+    <!-- Varios módulos profesionales, con id (elemento de mejora) -->
+    <modulo id="0484">
+        <nombre>Bases de Datos</nombre>
+        <descripcion>Este módulo profesional contiene la formación necesaria para desempeñar funciones relacionadas con la gestión de la información almacenada en bases de datos y el desarrollo de aplicaciones que acceden a bases de datos.</descripcion>
+        <!-- Contenidos (UNIDADES DIDÁCTICAS.) -->
+        <contenidos>
+            - Explotación de aplicaciones informáticas de propósito general.
+            - Bases de datos relacionales.
+            - Realización de consultas.
+            - Tratamiento de datos.
+            - Programación de bases de datos.
+            - Interpretación de Diagramas Entidad / Relación.
+            - Uso de bases de datos objeto-relacionales.
+        </contenidos>
+    </modulo>
+    <modulo id="0373">
+        <nombre>Lenguajes de Marcas y Sistemas de Gestión de la Información</nombre>
+        <descripcion>Este módulo profesional contiene la formación necesaria para desempeñar la función de gestión y explotación de sistemas de información.</descripcion>
+        <contenidos>
+            - Reconocimiento de las características de los lenguajes de marcas.
+            - Utilización de lenguajes de marcas en entornos web.
+            - Aplicación de los lenguajes de marcas a la sindicación de contenidos.
+            - Definición de esquemas y vocabularios en XML.
+            - Conversión y adaptación de documentos XML.
+            - Almacenamiento de información.
+            - Sistemas de gestión empresarial.
+        </contenidos>
+    </modulo>
+    <modulo id="0483">
+        <nombre>Sistemas Informáticos</nombre>
+        <descripcion>Este módulo profesional contiene la formación necesaria para desempeñar funciones que permitan la instalación, mantenimiento, configuración básica y explotación de sistemas operativos, así como las aplicaciones oportunas a partir de documentación técnica prestando especial atención a la configuración básica y gestión de redes de área local.</descripcion>
+        <contenidos>
+            - Explotación de Sistemas microinformáticos.
+            - Instalación de Sistemas Operativos.
+            - Gestión de la información.
+            - Configuración de sistemas operativos.
+            - Conexión de sistemas en red.
+            - Gestión de recursos en una red.
+            - Explotación de aplicaciones informáticas de propósito general.
+        </contenidos>
+    </modulo>
+    <modulo id="0485">
+        <nombre>Programación</nombre>
+        <descripcion>Este módulo profesional contiene parte de la formación necesaria para desempeñar la función de programación de aplicaciones de propósito general en lenguajes orientados a objetos.</descripcion>
+        <contenidos>
+            - Identificación de los elementos de un programa informático.
+            - Utilización de objetos.
+            - Uso de estructuras de control.
+            - Desarrollo de clases.
+            - Lectura y escritura de información.
+            - Aplicación de las estructuras de almacenamiento.
+            - Utilización avanzada de clases.
+            - Mantenimiento de la persistencia de los objetos.
+            - Gestión de bases de datos relacionales.
+        </contenidos>
+    </modulo>
+    <modulo id="0487">
+        <nombre>Entornos de Desarrollo</nombre>
+        <descripcion>Este módulo profesional contiene la formación necesaria para la utilización de las herramientas software disponibles, la elaboración de documentación interna y técnica de la aplicación, elaboración y ejecución de pruebas y la optimización de código.</descripcion>
+        <contenidos>
+            - Desarrollo de software.
+            - Instalación y uso de entornos de desarrollo.
+            - Diseño y realización de pruebas.
+            - Optimización y documentación.
+            - Elaboración de diagramas de clases.
+            - Elaboración de diagramas de comportamiento.
+        </contenidos>
+    </modulo>
+    <modulo id="0493">
+        <nombre>Formación y Orientación Laboral</nombre>
+        <descripcion>Este módulo profesional contiene la formación necesaria para que el alumno pueda insertarse laboralmente y desarrollar su carrera profesional en el sector del Desarrollo de Aplicaciones multiplataforma.</descripcion>
+        <contenidos>
+            - Búsqueda activa de empleo.
+            - Gestión del conflicto y equipos de trabajo.
+            - Contrato de trabajo.
+            - Seguridad Social y Desempleo.
+            - Evaluación de riesgos profesionales.
+            - Planificación de la prevención de riesgos en la empresa.
+            - Aplicación de medidas de prevención y protección en la empresa.
+        </contenidos>
+    </modulo>
+    <modulo id="0486">
+        <nombre>Acceso a Datos</nombre>
+        <descripcion>Este módulo profesional contiene la formación necesaria para desempeñar las funciones propias de desarrollador de aplicaciones multiplataforma desempeñando el desarrollo de aplicaciones y componentes que gestionan, acceden y utilizan bases de datos.</descripcion>
+        <contenidos>
+            - Manejo de Ficheros.
+            - Manejo de Conectores.
+            - Herramientas de mapeo objeto relacional (ORM).
+            - Bases de datos objeto relacionales y orientadas a objetos.
+            - Bases de datos XML.
+            - Programación de componentes de acceso a datos.
+        </contenidos>
+    </modulo>
+    <modulo id="0488">
+        <nombre>Desarrollo de Interfaces</nombre>
+        <descripcion>Este módulo profesional contiene la formación necesaria para el desarrollo de interfaces de usuario, la creación de informes, la preparación de aplicaciones para su distribución, la elaboración de los elementos de ayuda y la evaluación del funcionamiento de aplicaciones.</descripcion>
+        <contenidos>
+            - Confección de interfaces de usuario.
+            - Generación de interfaces a partir de documentos XML.
+            - Creación de componentes visuales.
+            - Usabilidad.
+            - Documentación de aplicaciones.
+            - Distribución de aplicaciones.
+        </contenidos>
+    </modulo>
+    <modulo id="0489">
+        <nombre>Este módulo profesional contiene la formación necesaria para implementar el desarrollo de aplicaciones multimedia, juegos y aplicaciones adaptadas para su explotación en dispositivos móviles.</nombre>
+        <descripcion>
+            - Análisis de tecnologías para aplicaciones en dispositivos móviles.
+            - Programación de aplicaciones para dispositivos móviles.
+            - Utilización de librerías multimedia integradas.
+            - Desarrollo de juegos 2D y 3D.
+        </descripcion>
+        <contenidos>
+
+        </contenidos>
+    </modulo>
+    <modulo id="0490">
+        <nombre>Programación de Servicios y Procesos</nombre>
+        <descripcion>Este módulo profesional contiene la formación necesaria para la utilización de las capacidades ofrecidas por el sistema operativo para la gestión y desarrollo de aplicaciones con procesos concurrentes, el desarrollo de aplicaciones y servicios ejecutados a través de la red y la utilización de mecanismos de seguridad en el desarrollo de aplicaciones.</descripcion>
+        <contenidos>
+            Programación multiproceso.
+            Programación multihilo.
+            Programación de comunicaciones en red.
+            Generación de servicios en red.
+            Utilización de técnicas de programación segura.
+        </contenidos>
+    </modulo>
+    <modulo id="0491">
+        <nombre>sistemas de gestión empresarial</nombre>
+        <descripcion>Este módulo profesional contiene la formación necesaria para desempeñar la función de implantación y adaptación de sistemas de planificación de recursos empresariales y de gestión de relaciones con clientes.</descripcion>
+        <contenidos>
+            - Identificación de sistemas ERP-CRM.
+            - Instalación y configuración de sistemas ERP-CRM.
+            - Organización y consulta de la información.
+            - Implantación de sistemas ERP-CRM en una empresa.
+            - Desarrollo de componentes.
+        </contenidos>
+    </modulo>
+    <modulo id="0494">
+        <nombre>Empresa e iniciativa emprendedora</nombre>
+        <descripcion>Este módulo profesional contiene la formación necesaria para desarrollar la propia iniciativa en el ámbito empresarial, tanto hacia el autoempleo como hacia la asunción de responsabilidades y funciones en el empleo por cuenta ajena.</descripcion>
+        <contenidos>
+            - Iniciativa emprendedora.
+            - La empresa y su entorno.
+            - Creación y puesta en marcha de una empresa.
+            - Función administrativa.
+        </contenidos>
+    </modulo>
+    <modulo id="0492">
+        <nombre>Pryecto de Desarrollo de Aplicaciones Mutiplataforma</nombre>
+        <descripcion>Este módulo profesional complementa la formación de otros módulos profesionales en las funciones de análisis del contexto, diseño y organización de la intervención y planificación de la evaluación de la misma.</descripcion>
+        <contenidos>
+            - Identificación de necesidades de necesidades del sector productivo y de la organización de la empresa.
+            - Diseño de proyectos relacionados con el sector.
+            - Planificación de la ejecución del proyecto.
+            - Definición de procedimientos de control y evaluación de la ejecución del proyecto.
+        </contenidos>
+    </modulo>
+    <modulo id="0495">
+        <nombre>Formación en Centros de Trabajo</nombre>
+        <descripcion>Este módulo profesional contribuye a completar las competencias, propias de este título, que se han alcanzado en el centro educativo o a desarrollar competencias características difíciles de conseguir en el mismo.</descripcion>
+        <contenidos>
+            - Identificación de la estructura y organización empresarial.
+            - Aplicación de hábitos éticos y laborales.
+            - Organización de trabajos.
+            - Gestión de equipos y sistemas informáticos.
+            - Diseño y manejo de bases de datos.
+            - Desarrollo y despliegue de juegos.
+            - Desarrollo y pruebas de interfaz de aplicaciones multiplatafoma.
+            - Implantación de sistemas de gestión de recursos empresariales.
+        </contenidos>
+    </modulo>
+</modulos>

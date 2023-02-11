@@ -1,0 +1,25 @@
+<xs:schema elementFormDefault="unqualified" attributeFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="modulos">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- DAM tiene 14 módulos profesionales -->
+                <xs:element name="modulo" maxOccurs="14" minOccurs="14">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="nombre"/>
+                            <xs:element type="xs:string" name="descripcion"/>
+                            <xs:element type="xs:string" name="contenidos"/>
+                        </xs:sequence>
+                        <xs:attribute type="num_modulo_profesional" name="id" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="num_modulo_profesional">
+        <xs:restriction base="xs:token">
+            <xs:pattern value="[0-9]{4}"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
